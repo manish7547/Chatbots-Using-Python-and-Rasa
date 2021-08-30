@@ -1,0 +1,2 @@
+# Chatbots-Using-Python-and-Rasa
+Rasa is a tool to build custom AI chatbots using Python and natural language understanding (NLU). Rasa provides a framework for developing AI chatbots that uses natural language understanding (NLU). It also allows the user to train the model and add custom actions. Chatbots built using Rasa deployed on multiple platforms like FB messenger, Microsoft bot and slack etc.
