@@ -1,0 +1,175 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - bye bye
+   
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - oki
+    - that sounds good
+    
+- intent: deny
+  examples: |
+    - no
+    - n
+    - not really
+
+- intent: courses
+  examples: |
+    - i would like to know the courses you provide.
+    - i want to know the courses you offer
+    - what are the diffrent courses it vedant offers
+    - which courses are provided at it vedant.
+    - share the list of courses provided
+   
+- intent: demo
+  examples: |
+    - do you provide demo classes
+    - i would like to attend a demo class
+    - is it possible to have a demo class
+    - can we schedule a Demo class
+    - will you provide me a demo class
+   
+- intent: background
+  examples: |
+    - i do not come from an it background, can i still join data science course
+    - i do not come from a technical background, can i still join this course
+    - i come from a non it background, am i eligible for this course
+    - do i need a technical background to join this course
+    - i dnt know coding can i join this course
+
+- intent: duration
+  examples: |
+    - what will be the duration of these courses
+    - how long will it take to complete the course
+    - what is the time span of this course
+    - how many months will it take to cover the course
+    - what is the duration for the courses
+
+- intent: in_demand
+  examples: |
+    - which is the most in demand course in it vedant 
+    - most popular course at it vedant
+    - which is the preffered course
+    - in demand course
+    - mostly taken course 
+
+- intent: financial_assistance
+  examples: |
+    - do you offer any financial assistance to students
+    - do you offer any discounts
+    - is it possible to pay the fees through emi
+    - do you accept EMI payments
+    - do you have any discount offers going on
+
+- intent: weekend
+  examples: |
+    - do you have weekend batches
+    - do you provide weekend batches
+    - is it possible to have weekend batches
+    - can i take up weekend batches
+    - do you have any batches on weekend
+
+- intent: study_material
+  examples: |
+    - what all study material you provide after joining the course
+    - will You provide any study material
+    - do you provide some notes
+    - what study material do you provide
+
+- intent: minimum_qualification
+  examples: |
+    - what's the minimum qualification
+    - what qualification is required to take up any course
+    - can any one take up these couses
+    - is there a minimum qualification required
+    - what is the minimum qualification required to enrol for any course
+
+- intent: placement
+  examples: |
+    - Do you provide placements
+    - How about placement
+    - do you offer any assistance for placement
+    - will i get placement
+    - does it vedant help in placement
+
+- intent: number
+  examples: |
+    - 7083146964
+    - 9421805159
+    - 8976543210
+    - 6123458769
+    - 7654890213
+
+- intent: it_vedant
+  examples: |
+    - what is it vedant
+    - tell me about it vedant
+    - why should i join it vedant
+    - when was it vedant started
+    - provide information about it vedant
+
+- intent: subjects
+  examples: |
+    - tell me more about [data science](subject)
+    - tell me more about [business data analytics](subject)
+    - tell me more about [full stack web developer](subject)
+    - tell me more about [java training](subject)
+    - tell me more about [php mysql](subject)
+    - tell me more about [mean stack](subject)
+    - tell me more about [dot net training](subject)
+    - tell me more about [all](subject)
+    - i want to know about [data science](subject)
+    - i want to know about [full stack web developer](subject)
+    - i want to know about [business data analytics](subject)
+    - i want to know about [java training](subject)
+    - i want to know about [php mysql](subject)
+    - i want to know about [mean stack](subject)
+    - i want to know about [dot net training](subject)
+    - i want to know about [all](subject)
+
+- intent: question
+  examples: |
+    - which course should i join
+    - can u suggest me a course
+    - Tell a suitable course for me
+    - which course would be suitable for me 
+    - provide me with a suitable course
+
+- intent: submit
+  examples: |
+    - d
+    - done
+
+- intent: social_media
+  examples: |
+    - [facebook](sm)
+    - [instagram](sm)
+    - [linkedin](sm)
+    
+
+    
+    
+    
+
+   
+

@@ -1,0 +1,85 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+ 
+- story: courses path
+  steps:
+  - intent: courses
+  - action: utter_courses
+  - action: utter_ask
+  - intent: subjects
+  - action: action_return_courses
+
+- story: demo path
+  steps:
+  - intent: demo
+  - action: utter_demo
+  - intent: number
+  - action: utter_number
+  
+
+- story: background path
+  steps:
+  - intent: background
+  - action: utter_background
+
+- story: duration path 
+  steps:
+  - intent: duration
+  - action: utter_duration
+
+- story: in_demand path 
+  steps:
+  - intent: in_demand
+  - action: utter_in_demand
+
+- story: financial_assistance path 
+  steps:
+  - intent: financial_assistance
+  - action: utter_financial_assistance
+
+- story: weekend path 
+  steps:
+  - intent: weekend
+  - action: utter_weekend
+
+- story: study_material path 
+  steps:
+  - intent: study_material
+  - action: utter_study_material
+
+- story: minimum_qualification path
+  steps:
+  - intent: minimum_qualification
+  - action: utter_minimum_qualification
+
+- story: placement path
+  steps:
+  - intent: placement
+  - action: utter_placement
+
+- story: it_vedant path
+  steps:
+  - intent: it_vedant
+  - action: utter_it_vedant
+
+- story: question path 
+  steps:
+  - intent: question
+  - action: utter_question
+  - action: action_return_form
+  - intent: submit
+  - action: utter_submit
+
+- story: goodbye_path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: social_media
+  - action: action_return_sm
+ 

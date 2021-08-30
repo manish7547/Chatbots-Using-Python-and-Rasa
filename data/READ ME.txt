@@ -1,0 +1,13 @@
+PROJECT NAME - IT VEDANT HELPDESK,
+
+AIM: To create a chatbot using Rasa.
+
+TEAM MEMBERS: NIDHI SONDOULE,
+              MANISH KAMBLE,
+              AMIT SINGH,
+              PRATIK GHADGE.
+
+DESCRIPTION: We have created a chatbot for an it training institute, IT vedant. We have used the default supervisesd_embeddings pipeline provided by Rasa.
+This model learns everything from the examples we provide in the NLU training data file. We have added features like actions, links, buttons, entities and google form.
+
+
