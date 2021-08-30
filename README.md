@@ -1,6 +1,6 @@
 # Chatbots-Using-Python-and-Rasa
 Rasa is a tool to build custom AI chatbots using Python and natural language understanding (NLU). Rasa provides a framework for developing AI chatbots that uses natural language understanding (NLU). It also allows the user to train the model and add custom actions. Chatbots built using Rasa deployed on multiple platforms like FB messenger, Microsoft bot and slack etc.
-#### It Vedant
+
 One of the most recommended IT Training Institute
 Itvedant has invited Mr. Dipesh Karki, Founder & CTO of Lenden Club to conduct a Webinar for the students to upgrade their knowledge in Data Science, Machine Learning, Deep Learning & AI.
 Itvedant Education Pvt. Ltd is a professional education institute. It is founded in 2012, successfully operating from collective active branches at Thane, Andheri, Navi Mumbai, Pune, Bengaluru, Chennai, Hyderabad.
